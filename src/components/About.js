@@ -2,6 +2,12 @@ import React from "react";
 import "./App.css";
 
 function About() {
+  const styleObj = {
+    color: "rebeccapurple",
+    fontWeight: "bold",
+    fontSize: "35px",
+  };
+
 
   return (
     <div className="container">
@@ -12,6 +18,7 @@ function About() {
               className="display-4"
               className="lead"
               className="my-4"
+              style={styleObj}
             >
               {" "}
               About Me

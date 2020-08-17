@@ -1,0 +1,22 @@
+.nav {
+display: flex;
+align-items: right;
+background: black;
+color: white;
+}
+
+.navbar-brand {
+font-weight: bold;
+
+}
+
+.page-header {
+    color: rgb(136, 79, 192);
+    font-weight: bold;
+    font-size: 35px;
+};
+
+img {
+    width: 207.5px;
+    height: 220px;
+  };

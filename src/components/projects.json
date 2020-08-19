@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "title": "Work Day Scheduler",
+      "image": "../images/scheduler.png",
+      "gitLink": "https://github.com/chueny/WorkDayScheduler",
+      "appLink": "https://chueny.github.io/WorkDayScheduler/"
+    },
+    {
+      "id": 2,
+      "title": "Weathear API",
+      "image": "../images/WeatherAPI.png",
+      "gitLink": "https://github.com/chueny/WeatherApp",
+      "appLink": "https://chueny.github.io/WeatherApp/"
+    },
+    {
+      "id": 3,
+      "title": "Team Directory Generator",
+      "image": "../images/teamGenerator.png",
+      "gitLink": "https://github.com/chueny/CLI-Employee-Summary",
+      "appLink": "https://chueny.github.io/CLI-Employee-Summary/"
+    },
+    {
+        "id": 4,
+        "title": "To Do App",
+        "image": "../images/toDoApp.png",
+        "gitLink": "https://github.com/chueny/InspirationalToDo",
+        "appLink": "https://chueny.github.io/InspirationalToDo/"
+    },
+    {
+        "id": 5,
+        "title": "Note Taker",
+        "image": "https://github.com/chueny/Note-Taker-Express",
+        "gitLink": "https://github.com/chueny/Note-Taker-Express",
+        "appLink": "https://morning-retreat-67874.herokuapp.com/"
+    },
+    {
+        "id": 6,
+        "title": "Eat Da Burger",
+        "image": "../images/burger.png",
+        "gitLink": "https://github.com/chueny/Burger",
+        "appLink": "https://burger-chueny.herokuapp.com/"
+    }
+
+]

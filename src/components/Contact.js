@@ -31,7 +31,7 @@ function Contact(){
         </div>
         </nav> */}
  
-      <section className="container">
+      <section style={{height: "80vh"}} className="container">
         <div className="row">
           <div className="col-md-12">
             <div className="page-header jumbotron">                                

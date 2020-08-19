@@ -6,11 +6,12 @@ import "./App.css";
 function Footer(){
   const styleObj ={
     textAlign: "center",
+    background: "black",
   }
 
   return(
     <div style={styleObj} className="card-footer">
-    <p > <FontAwesomeIcon icon={faCopyright}/> 2020 Chue Yang </p>
+    <p style={{color: "white"}}> <FontAwesomeIcon icon={faCopyright}/> 2020 Chue Yang </p>
     </div>
   );
 }

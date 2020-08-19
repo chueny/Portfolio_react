@@ -29,10 +29,10 @@ function NavTabs() {
                 location.pathname === "/about" ? "nav-link active" : "nav-link"
               }
             >
-              About me
+              About
             </Link>
           </li>
-          <li className="nav-item ">
+          {/* <li className="nav-item ">
             <Link
               to="/portfolio"
               className={
@@ -43,8 +43,19 @@ function NavTabs() {
             >
               Portfolio
             </Link>
-          </li>{" "}
-          */}
+          </li> */}
+          <li className="nav-item ">
+            <Link
+              to="/projects"
+              className={
+                location.pathname === "/projects"
+                  ? "nav-link active"
+                  : "nav-link"
+              }
+            >
+              Projects
+            </Link>
+          </li>
           <li class="nav-item">
             <Link
               to="/contact"

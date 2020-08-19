@@ -31,11 +31,11 @@ function Contact(){
         </div>
         </nav> */}
  
-      <section class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="page-header" class="jumbotron">                                
-               <h1 class="display-4" class="lead" class="my-4" style={styleObj}> Contact</h1>
+      <section className="container">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="page-header jumbotron">                                
+               <h1 className="display-4 lead my-4" style={styleObj}> Contact</h1>
                 <hr></hr>
             </div>
           </div>

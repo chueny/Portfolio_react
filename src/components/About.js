@@ -13,11 +13,9 @@ function About() {
     <div className="container">
       <div className="row">
         <div className="col-md-12">
-          <div className="page-header" className="jumbotron">
+          <div className="page-header jumbotron">
             <h1
-              className="display-4"
-              className="lead"
-              className="my-4"
+              className="display-4 lead my-4"
               style={styleObj}
             >
               {" "}
@@ -30,7 +28,7 @@ function About() {
 
       <div className="row">
         <div className="col-md-3 col-xs-3">
-          <img src="../images/chue.jpg"/>
+          <img className="img-fluid" src={require("../images/chue.jpg")} alt="chue"/>
         </div>
 
         <div className="col-md-9 col-xs-9">
@@ -55,7 +53,7 @@ function About() {
           </p>
           <p>
             <stron>
-              <a href="./images/Resume_YangC_updatedMay2020.pdf">
+              <a href={require("../images/Resume_YangC_updatedMay2020.pdf")}>
                 Click for resume.
               </a>
             </stron>

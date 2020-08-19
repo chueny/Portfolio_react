@@ -9,38 +9,18 @@ function Contact(){
       };
 
  return(
-
-    <div>
-      {/* <nav className="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
-        <a className="navbar-brand" href="#" style={fontWeight="bold"} >Chue Yang</a>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item ">
-              <a class="nav-link" href="index.html">About Me</a> 
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-        </nav> */}
- 
-      <section style={{height: "80vh"}} className="container">
-        <div className="row">
-          <div className="col-md-12">
-            <div className="page-header jumbotron">                                
-               <h1 className="display-4 lead my-4" style={styleObj}> Contact</h1>
-                <hr></hr>
-            </div>
+      <section style={{ height: "90vh", backgroundColor: "white" }} className="container">
+      <div className="row">
+        <div style={{height: "25vh"}} className="col-md-12">
+          <div style={{ backgroundColor: "white"}} className="page-header jumbotron">
+            <h1 className="display-1 lead my-1" style={styleObj}>
+              Contact
+            </h1>
+            <hr></hr>
           </div>
         </div>
-       
+      </div>
+     
         <form>
           <p><strong>GitHub: </strong><a href="https://github.com/chueny">chueny</a></p>
           <p> <strong>LinkedIn: </strong><a href="https://www.linkedin.com/in/chueyang/">  chueyang</a></p>
@@ -48,7 +28,6 @@ function Contact(){
           <p><strong>Phone: </strong>414-469-3284</p>
         </form>
     </section>
-</div>
 
  );
 }

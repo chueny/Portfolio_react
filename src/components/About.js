@@ -8,17 +8,18 @@ function About() {
     fontSize: "35px",
   };
 
-
   return (
-    <div style={{height: "80vh"}} className="container">
+    <div
+      style={{ height: "90vh", backgroundColor: "white" }}
+      className="container"
+    >
       <div className="row">
-        <div className="col-md-12">
-          <div className="page-header jumbotron">
-            <h1
-              className="display-4 lead my-4"
-              style={styleObj}
-            >
-              {" "}
+        <div style={{ height: "15vh" }} className="col-md-12">
+          <div
+            style={{ backgroundColor: "white" }}
+            className="page-header jumbotron"
+          >
+            <h1 className="display-1 lead my-1" style={styleObj}>
               About Me
             </h1>
             <hr></hr>
@@ -28,7 +29,11 @@ function About() {
 
       <div className="row">
         <div className="col-md-3 col-xs-3">
-          <img className="img-fluid" src={require("../images/chue.jpg")} alt="chue"/>
+          <img
+            className="img-fluid"
+            src={require("../images/chue.jpg")}
+            alt="chue"
+          />
         </div>
 
         <div className="col-md-9 col-xs-9">
@@ -52,11 +57,11 @@ function About() {
             backpacking.
           </p>
           <p>
-            <stron>
+            <strong>
               <a href={require("../images/Resume_YangC_updatedMay2020.pdf")}>
                 Click for resume.
               </a>
-            </stron>
+            </strong>
           </p>
         </div>
       </div>

@@ -52,7 +52,7 @@ export default function Portfolio() {
 
     <div className="row">
         <div className="col-md-6">
-            <img src={require("../images/NoteTaker.png")} alt="Note Taker App" className="img-thumbnail"/>
+            <img src={require("https://github.com/chueny/Note-Taker-Express")} alt="Note Taker App" className="img-thumbnail"/>
             <button><a href="https://github.com/chueny/Note-Taker-Express">GitHub</a></button>
             <button><a href="https://morning-retreat-67874.herokuapp.com/">View App</a></button>
         </div>
@@ -67,7 +67,7 @@ export default function Portfolio() {
     <div className="row">
         <div className="col-md-6">
             <img src={require("../images/burger.png")} alt="Burger App" className="img-thumbnail"/>
-            <button><a href="https://github.com/chueny/Note-Taker-Express">GitHub</a></button>
+            <button><a href="https://github.com/chueny/Burger">GitHub</a></button>
             <button><a href="https://burger-chueny.herokuapp.com/">View App</a></button> 
         </div>
     </div>

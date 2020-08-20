@@ -2,24 +2,20 @@ import React from "react";
 
 function Contact(){
 
-    const styleObj = {
-        color: "rebeccapurple",
-        fontWeight: "bold",
-        fontSize: "35px",
-      };
+  const styleObj = {
+    color: "rebeccapurple",
+    fontWeight: "bold",
+    fontSize: "35px",
+    padding: "left",
+    marginTop: "30px",
+  };
 
  return(
-      <section style={{ height: "90vh", backgroundColor: "white" }} className="container">
-      <div className="row">
-        <div style={{height: "25vh"}} className="col-md-12">
-          <div style={{ backgroundColor: "white"}} className="page-header jumbotron">
-            <h1 className="display-1 lead my-1" style={styleObj}>
-              Contact
-            </h1>
-            <hr></hr>
-          </div>
-        </div>
-      </div>
+  <section style={{ height: "90vh"}} className="container">
+  <h1 style={styleObj}>
+    Contact
+  </h1>
+  <hr></hr>
      
         <form>
           <p><strong>GitHub: </strong><a href="https://github.com/chueny">chueny</a></p>

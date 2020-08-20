@@ -6,27 +6,18 @@ function About() {
     color: "rebeccapurple",
     fontWeight: "bold",
     fontSize: "35px",
+    padding: "left",
+    marginTop: "30px",
   };
 
   return (
-    <div
-      style={{ height: "90vh", backgroundColor: "white" }}
-      className="container"
-    >
-      <div className="row">
-        <div style={{ height: "15vh" }} className="col-md-12">
-          <div
-            style={{ backgroundColor: "white" }}
-            className="page-header jumbotron"
-          >
-            <h1 className="display-1 lead my-1" style={styleObj}>
+    
+    <div style={{ height: "90vh"}} className="container">
+            <h1 style={styleObj}>
               About Me
             </h1>
             <hr></hr>
-          </div>
-        </div>
-      </div>
-
+     
       <div className="row">
         <div className="col-md-3 col-xs-3">
           <img

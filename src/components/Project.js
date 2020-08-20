@@ -14,7 +14,7 @@ function Projects(props) {
 
   return (
     
-    <div style={{ height: "90vh"}} className="container">
+    <div style={{ height: "150vh"}} className="container">
             <h1 style={styleObj}>
               Portfolio
             </h1>

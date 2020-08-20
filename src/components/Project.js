@@ -1,7 +1,7 @@
 import React from "react";
-import Thumbnail from "./Thumbnail.js";
+import Thumbnail from "./Project.js";
 import "./App.css";
-// import projects from "../components/projects.json";
+import projects from "../components/projects.json";
 
 function Projects(props) {
   const styleObj = {
@@ -16,15 +16,15 @@ function Projects(props) {
     
     <div style={{ height: "90vh"}} className="container">
             <h1 style={styleObj}>
-              Projects
+              Portfolio
             </h1>
             <hr></hr>
       
-      {/* <div class="row">
+     <div class="row">
         {projects.map((project) => (
           <div class="col-md-6">
             <div className="card" style={{ width: "20rem", margin: "10px" }}>
-              <img className="card-img-top" src="" alt="Card image cap" />
+              <img className="card-img-top" src={require(`../images/${project.image}`)} alt="Card image cap" />
               <div className="card-body">
                 <h5 className="card-title">{project.title}</h5>
                 <a href={project.gitLink} className="btn btn-primary">
@@ -38,7 +38,7 @@ function Projects(props) {
             </div>
           </div>
         ))}
-      </div> */}
+      </div>
     </div>
   );
 }

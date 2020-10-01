@@ -1,13 +1,27 @@
 [
-    {
-      "id": 1,
+  {
+    "id": 1,
+    "title": "Recipe Box",
+    "image": "recipebox.png",
+    "gitLink": "https://github.com/chueny/Recipe-Journal",
+    "appLink": "https://project-3-recipe-box.herokuapp.com/"
+  },
+  {
+    "id": 2,
+    "title": "Wheels Up",
+    "image": "Wheels-Up.png",
+    "gitLink": "https://github.com/chueny/Wheels-Up",
+    "appLink": "https://wheels-up.herokuapp.com/"
+  },  
+  {
+      "id": 3,
       "title": "Work Day Scheduler",
       "image": "scheduler.png",
       "gitLink": "https://github.com/chueny/WorkDayScheduler",
       "appLink": "https://chueny.github.io/WorkDayScheduler/"
     },
     {
-      "id": 2,
+      "id": 4,
       "title": "Weathear API",
       "image": "WeatherAPI.png",
       "gitLink": "https://github.com/chueny/WeatherApp",
@@ -15,27 +29,27 @@
     },
     {
       "id": 3,
+      "title": "To Do App",
+      "image": "toDoApp.png",
+      "gitLink": "https://github.com/chueny/InspirationalToDo",
+      "appLink": "https://chueny.github.io/InspirationalToDo/"
+    },
+    {
+      "id": 4,
       "title": "Team Directory Generator",
       "image": "teamGenerator.png",
       "gitLink": "https://github.com/chueny/CLI-Employee-Summary",
       "appLink": "https://chueny.github.io/CLI-Employee-Summary/"
     },
     {
-        "id": 4,
-        "title": "To Do App",
-        "image": "toDoApp.png",
-        "gitLink": "https://github.com/chueny/InspirationalToDo",
-        "appLink": "https://chueny.github.io/InspirationalToDo/"
-    },
-    {
-        "id": 5,
+        "id": 6,
         "title": "Note Taker",
         "image": "NoteTaker.png",
         "gitLink": "https://github.com/chueny/Note-Taker-Express",
         "appLink": "https://morning-retreat-67874.herokuapp.com/"
     },
     {
-        "id": 6,
+        "id": 7,
         "title": "Eat Da Burger",
         "image": "burger.png",
         "gitLink": "https://github.com/chueny/Burger",

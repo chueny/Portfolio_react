@@ -14,7 +14,7 @@ function Projects(props) {
 
   return (
     
-    <div style={{ height: "150vh"}} className="container">
+    <div style={{ height: "200vh"}} className="container">
             <h1 style={styleObj}>
               Portfolio
             </h1>
@@ -25,12 +25,12 @@ function Projects(props) {
           <div class="col-md-6">
             <div className="card" style={{ width: "20rem", margin: "10px" }}>
               <img className="card-img-top" src={require(`../images/${project.image}`)} alt="Card image cap" />
-              <div className="card-body">
-                <h5 className="card-title">{project.title}</h5>
-                <a href={project.gitLink} className="btn btn-primary">
+              <div className="card-body d-flex justify-content-center my-1">
+                {/* <h5 className="card-title">{project.title}</h5> */}
+                <a href={project.gitLink} className="btn btn-primary" style={{ color: "light gray"}} >
                   GitHub
-                </a>
-                <p></p>
+                </a> 
+                <hr></hr>
                 <a href={project.appLink} className="btn btn-primary">
                   View App
                 </a>

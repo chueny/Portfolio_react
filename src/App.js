@@ -4,7 +4,7 @@ import NavTabs from "./components/NavTabs";
 import About from "./components/About";
 import Projects from "./components/Project";
 import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         <Route path="/Portfolio" exact component ={Projects} />
         <Route path="/Contact" exact component={Contact} />
         </Switch>
-        <Footer />
+        {/* <Footer /> */}
     </Router>
   );
 }
